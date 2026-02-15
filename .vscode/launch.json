@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BookMyShowApplication",
+      "request": "launch",
+      "mainClass": "com.cfs.book_my_show.BookMyShowApplication",
+      "projectName": "book_my_show"
+    },
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
